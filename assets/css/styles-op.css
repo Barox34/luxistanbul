@@ -143,9 +143,14 @@ a#scrollUp:hover {
     	  color: #cee002; 
 		}
 /*--------header-area start---------*/
-
 .logo {
     margin: 30px 0px;
+}
+.language{
+	display: none;
+}
+.mainmenu-language {
+    padding: 52px 0px;
 }
 .mainmenu {
     padding: 47px 0px;
@@ -173,13 +178,11 @@ a#scrollUp:hover {
     font-weight: 500;
     color: #f1f1f1;
 }
-
 .mainmenu ul li.active>a,
 .mainmenu ul li:hover>a {
     border-bottom: 3px solid #cee002;
 	border-radius: 0%;
 }
-
 .mainmenu ul li>ul {
     display: block;
     position: absolute;
@@ -218,16 +221,21 @@ a#scrollUp:hover {
   position: relative;
   z-index: 1;
   height: 45px;
-  background-color: #333333; }
+  background-color: #333333; 
+}
   @media only screen and (max-width: 767px) {
     .top-header-area {
-      height: auto; } }
+      height: auto; 
+	  } 
+}
   .top-header-area .email-address {
     padding-left: 230px;
     line-height: 1; }
     @media only screen and (max-width: 767px) {
       .top-header-area .email-address {
-        padding: 15px 30px; } }
+        padding: 15px 30px; 
+		} 
+}
     .top-header-area .email-address a {
       color: #f1f1f1;
       font-size: 12px;
@@ -235,12 +243,14 @@ a#scrollUp:hover {
       z-index: 1;
       top: -2px; }
       .top-header-area .email-address a:hover, .top-header-area .email-address a:focus {
-        color: #f1f1f1; }
+        color: #f1f1f1; 
+}
   .top-header-area .phone-number {
     line-height: 1;
     background-color: #cee002;
     height: 45px;
-    margin-bottom: 0; }
+    margin-bottom: 0; 
+}
     .top-header-area .phone-number .icon {
       background-color: #000;
       width: 45px;
@@ -248,13 +258,15 @@ a#scrollUp:hover {
       text-align: center; }
       .top-header-area .phone-number .icon img {
         padding: 13px 0;
-        max-width: 20px;}
+        max-width: 20px;
+}
     .top-header-area .phone-number .number a {
       padding: 0 60px 0 20px;
       color: #333!important;
 	  font-weight: 600;
       line-height: 45px;
-      font-size: 14px; }
+      font-size: 14px; 
+}
     .top-header-area .phone-number .number a:hover {
       color: #fff!important;
 	 }
@@ -297,7 +309,6 @@ a#scrollUp:hover {
     top: 100%;
 }
 /*--------header-area end---------*/
-
 /*---------------------------- interior-area start --------------------------*/
 .ftco-book .appointment-form {
   padding: 35px;
@@ -306,14 +317,18 @@ a#scrollUp:hover {
   border-radius: 0px !important;
   -webkit-box-shadow: 0px 15px 34px -29px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 0px 15px 34px -29px rgba(0, 0, 0, 0.54);
-  box-shadow: 0px 15px 34px -29px rgba(0, 0, 0, 0.54); }
+  box-shadow: 0px 15px 34px -29px rgba(0, 0, 0, 0.54); 
+}
   @media (min-width: 992px) {
     .ftco-book .appointment-form {
-      margin-top: -250px; } }
+      margin-top: -250px; 
+	  } 
+}
   .ftco-book .appointment-form .form-group {
     position: relative;
     width: 100%;
-    display: block; }
+    display: block; 
+}
     .ftco-book .appointment-form .form-group .icon {
       position: absolute;
       top: 50% !important;
@@ -321,19 +336,23 @@ a#scrollUp:hover {
       font-size: 16px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
+      transform: translateY(-50%); 
+}
       .ftco-book .appointment-form .form-group .icon span {
         font-size: 10px;
-        color: rgba(0, 0, 0, 0.8) !important; }
+        color: rgba(0, 0, 0, 0.8) !important; 
+}
     .ftco-book .appointment-form .form-group .select-wrap, .ftco-book .appointment-form .form-group .input-wrap {
       position: relative; }
       .ftco-book .appointment-form .form-group .select-wrap select, .ftco-book .appointment-form .form-group .input-wrap select {
         -webkit-appearance: none;
         -moz-appearance: none;
-        appearance: none; }
+        appearance: none; 
+}
     .ftco-book .appointment-form .form-group .btn {
       width: 100%;
-      display: block !important; }
+      display: block !important; 
+}
   .ftco-book .appointment-form .form-control {
     border: transparent !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
@@ -343,25 +362,31 @@ a#scrollUp:hover {
     font-size: 14px;
     border-radius: 0px !important;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
+    box-shadow: none !important; 
+}
     .ftco-book .appointment-form .form-control::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
-      color: rgba(0, 0, 0, 0.9); }
+      color: rgba(0, 0, 0, 0.9); 
+}
     .ftco-book .appointment-form .form-control::-moz-placeholder {
       /* Firefox 19+ */
-      color: rgba(0, 0, 0, 0.9); }
+      color: rgba(0, 0, 0, 0.9); 
+}
     .ftco-book .appointment-form .form-control:-ms-input-placeholder {
       /* IE 10+ */
-      color: rgba(0, 0, 0, 0.9); }
+      color: rgba(0, 0, 0, 0.9); 
+}
     .ftco-book .appointment-form .form-control:-moz-placeholder {
       /* Firefox 18- */
-      color: rgba(0, 0, 0, 0.9); }
+      color: rgba(0, 0, 0, 0.9); 
+}
     .ftco-book .appointment-form .form-control:focus, .ftco-book .appointment-form .form-control:active {
-      border-color: #f1f1f1; }
+      border-color: #f1f1f1; 
+}
   .ftco-book .appointment-form textarea.form-control {
-    height: inherit !important; }
+    height: inherit !important; 
+}
 /*---------------------------- interior-area end --------------------------*/
-
 /*---------------------------- responsiv-area start --------------------------*/
 .responsive-menu-wrap {
     position: relative;
@@ -492,7 +517,6 @@ a#scrollUp:hover {
     top: 42px;
 }
 /*-------- responsiv-area end ------------*/
-
 /*--------slider-area start---------*/
 .slider-items {
     position: relative;
@@ -721,7 +745,6 @@ a#scrollUp:hover {
     right: 0;
 }
 /*--------slider-area end---------*/
-
 /*--------about-area start---------*/
 .about-wrap {
     position: relative;
@@ -833,7 +856,6 @@ a#scrollUp:hover {
     z-index: -9;
 }
 /*--------about-area end---------*/
-
 /*--------servic-area start---------*/
 .section-title {
     margin-bottom: 40px;
@@ -903,7 +925,6 @@ a#scrollUp:hover {
     margin-bottom: 0px;
 }
 /*--------servic-area end---------*/
-
 /*--------project-area start---------*/
 .project-area {
     padding: 120px 0px 90px;
@@ -1019,7 +1040,6 @@ a#scrollUp:hover {
     margin-bottom: 0px;
 }
 /*--------project-area end---------*/
-
 /*--------service-area start---------*/
 .service-area {
     padding: 120px 0px 90px;
@@ -1088,7 +1108,6 @@ a#scrollUp:hover {
     color: #f1f1f1;
 }
 /*--------service-area end---------*/
-
 /*--------testmonial-area start---------*/
 .section-title2 h2,
 .section-title2 h3 {
@@ -1115,7 +1134,6 @@ ul.slick-dots {
     background: #cee002;
 }
 /*--------testmonial-area end---------*/
-
 /*--------brand-area start---------*/
 .brand-area {
     padding: 100px 0px;
@@ -1128,7 +1146,6 @@ ul.slick-dots {
     background: #cee002;
 }
 /*--------footer-area start---------*/
-
 .footer-top {
     padding: 80px 0px 40px;	
     background: rgba(0, 0, 0, 0.7) url("../../images/footer-bg.jpg");
@@ -1257,11 +1274,7 @@ ul.slick-dots {
 .footer-social a:hover{
 	color:#cee002!important;
 }
-
-
-
 /*--------footer-area end---------*/
-
 /*=======================================
         home two style here
 =======================================*/
@@ -1290,7 +1303,6 @@ a.readmore-btn {
 a.about-btn{
 	margin-left: 170px;
 }
-
 a.readmore-btn:hover {
     background: #333333;
     color: #f1f1f1;
@@ -1328,7 +1340,6 @@ a.readmore-btn:hover {
             transform: translate(-50%, -50%);
 }
 /*about*/
-
 /*---------quote-area start---------*/
 .quote-area {
     padding: 50px 0px;
@@ -1355,7 +1366,6 @@ a.readmore-btn:hover {
 	border: 3px solid #000;
 }
 /*---------quote-area end---------*/
-
 /*---------interior-area start---------*/
 .interior-area {
     background: #cee002;
@@ -1681,7 +1691,6 @@ a.readmore-btn:hover {
     }
 }
 /*-------blog-------*/
-
 /*=======================================
         home Three style here
 =======================================*/
@@ -1751,7 +1760,6 @@ a.readmore-btn:hover {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, .1);
 }
 /*about-area*/
-
 /*skill-area*/
 .skill-wrap {
     padding: 10px 0px;
@@ -1818,7 +1826,6 @@ a.readmore-btn:hover {
     border: 50px solid rgba(0, 0, 0, .1);
 }
 /*skill-area*/
-
 /*newsletter-area*/
 .newsletter-area {
     padding: 100px 0px;
@@ -1863,7 +1870,6 @@ a.readmore-btn:hover {
 /*=======================================
         home Three style here
 =======================================*/
-
 /*=======================================
         about page style here
 =======================================*/
@@ -2108,7 +2114,6 @@ a.readmore-btn:hover {
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 /*blog*/
-
 /*-------------------------sidebar-area start-------------------------*/
 .widget {
     margin-bottom: 40px;
@@ -2272,14 +2277,3 @@ a.readmore-btn:hover {
 	outline:0;
 	box-shadow:0 0 0 .2rem rgba(206,224,2,.25)
 }
-
-
-
-
-
-
-
-
-
-
-
