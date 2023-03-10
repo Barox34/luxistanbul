@@ -44,9 +44,6 @@
     .about-wrap-2 {
         padding: 37px 0;
     }
-    .skill-img {
-        height: 540px;
-    }
     .mainmenu ul li a {
         font-size: 14px;
     }
@@ -115,6 +112,9 @@
 	.section-title3 h3 {
         margin-bottom: 30px !important;
     }
+    .testmonial-area {
+        padding: 100px 0 145px;
+    }	
     .about-area2 .about-wrap .about-wrap2 {
         padding: 80px 30px 80px 30px;
     }
@@ -205,7 +205,6 @@
     }
     .section-title h2 {
         font-size: 25px;
-		text-align: center;
     }
 	.section-title3 h3 {
 	    margin-bottom: 30px!important;
@@ -259,6 +258,9 @@
         left: 55px;
         width: 400px;
     }
+    .testmonial-area {
+        padding: 100px 0 145px;
+    }	
     .about-area2 .about-img2 {
         margin-bottom: 50px;
     }
@@ -271,6 +273,12 @@
     .interior-area {
         padding: 100px 0px;
     }
+    .outerior-img {
+        display: none;
+    }
+    .outerior-area {
+        padding: 100px 0px;
+    }	
     .blog-content2 h4 {
         font-size: 14px;
         margin-bottom: 10px;
@@ -423,6 +431,12 @@
     .interior-area {
         padding: 100px 0px;
     }
+    .outerior-img {
+        display: none;
+    }
+    .outerior-area {
+        padding: 100px 0px;
+    }	
     .ptb-120 {
         padding: 100px 0;
     }
@@ -452,9 +466,6 @@
     }
     .about-wrap3.about-wrap-2 {
         padding: 30px 0px 0px;
-    }
-    .newsletter-wrap button {
-        width: 110px;
     }
     .about-page-wrap h2 {
         font-size: 24px;
